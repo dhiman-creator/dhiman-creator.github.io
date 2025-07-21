@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume - Index</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container">
+    <h2>Index</h2>
+    <ul>
+      <li><a href="page1.html">Page 1: Personal Profile & Education</a></li>
+      <li><a href="page2.html">Page 2: Experience & Membership</a></li>
+    </ul>
+
+    <section class="feedback-section">
+      <h2>Submit Feedback</h2>
+      <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="comments">Your Feedback:</label>
+        <textarea id="comments" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="response"></p>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
